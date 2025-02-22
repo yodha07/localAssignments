@@ -1,8 +1,10 @@
 const API_URL = 'http://localhost:3001/todos';
+let currentId = 1;
 
 // Fetch existing todos when the page loads
 document.addEventListener('DOMContentLoaded', () => {
   // fetch todos
+    fetchTodos();
 });
 
 // Fetch todos from backend
