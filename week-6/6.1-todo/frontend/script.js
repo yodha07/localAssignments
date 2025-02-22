@@ -10,11 +10,13 @@ document.addEventListener('DOMContentLoaded', () => {
 // Fetch todos from backend
 function fetchTodos() {
     //  write here
+
 }
 
 // Add a new todo to the DOM
 function addTodoToDOM(todo) {
     //  write here
+
 }
 
 // Add a new todo
